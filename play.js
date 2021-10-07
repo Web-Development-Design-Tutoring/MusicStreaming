@@ -3,7 +3,7 @@ function getRandomInt(max) {
  }
 
  var numWeNeed = document.write(getRandomInt(10));
- 
+
  var crayons = new Audio('songsForProject/Crayons Can Melt on Us for All I Care.mp3');
  var fake = new Audio('songsForProject/Fake Rickroll to scare your friends.mp3');
  var ginger = new Audio('songsForProject/Ginger Root - Loretta.mp3');
@@ -17,28 +17,27 @@ function getRandomInt(max) {
 
 
 
-
 if (numWeNeed == 0) {
-  
+  var music = crayons;
 } else if (numWeNeed == 1) {
-  
+  var music = fake;
 } else if (numWeNeed == 2) {
-  
+  var music = ginger;
 } else if (numWeNeed == 3) {
-  
+  var music = pirate;
 } else if (numWeNeed == 4) {
-  
+  var music = flamingo;
 } else if (numWeNeed == 5) {
-  
+  var music = rick;
 } else if (numWeNeed == 6) {
-  
+  var music = smash;
 } else if (numWeNeed == 7) {
-  
+  var music = space;
 } else if (numWeNeed == 8) {
-  
+  var music = unravel;
 } else if (numWeNeed == 9) {
-  
+  var music = baka;
 }
- //gets a random number from 1-10
+
  
- 
+music.play();
