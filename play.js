@@ -2,7 +2,7 @@ function getRandomInt(max) {
    return Math.floor(Math.random() * max);
  }
 
- var numWeNeed = document.write(getRandomInt(10));
+ var numWeNeed = getRandomInt(10);
 
  var crayons = new Audio('songsForProject/Crayons Can Melt on Us for All I Care.mp3');
  var fake = new Audio('songsForProject/Fake Rickroll to scare your friends.mp3');
