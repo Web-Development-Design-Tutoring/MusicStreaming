@@ -1,4 +1,12 @@
 body {
-   background-color: #c3732a;
+   background-color: black;
 
+}
+
+.button {
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+   width: 954px 356px;
 }
