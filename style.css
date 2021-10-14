@@ -1,12 +1,8 @@
 body {
    background-color: black;
-
-}
-
-.button {
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: auto;
-   margin-bottom: auto;
-   width: 954px 356px;
+   margin: auto;
+   width: 50%;
+   height: 50%;
+   position: absolute;
+   top: 50%;
 }
